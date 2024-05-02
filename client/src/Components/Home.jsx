@@ -51,7 +51,7 @@ const Home = () => {
        };
        console.log(formData)
        try{
-         const url = "http://localhost:5000/api";
+         const url = "https://assignment-bizp.onrender.com/api";
          const res = await axios.post(`${url}/download`, formData);
          // console.log("formData is " + JSON.stringify(formData));
          console.log(res.data);
